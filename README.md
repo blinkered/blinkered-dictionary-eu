@@ -56,8 +56,8 @@ of the English list is about fifty words, most of them loans that Basque spells 
 **Why from scratch rather than reused.** A rebuild that reuses recorded testimony carries every
 word in the old evidence, including candidates that are no longer candidates. Rebuilt over the
 fixed list with the old record in place, eight removed words still shipped on reused sightings
-alone (AND, NEW, BOB, GAY). So every collection was fetched again and re-read. That is a fault in
-the shared build and is reported there rather than patched here.
+alone (AND, NEW, BOB, GAY). So every collection was fetched again and re-read. The shared build
+has since been fixed to ask only today's candidates, whatever the record holds.
 
 **Where the drop list points.** From scratch, with two publishers, the fixed list kept 54.1%; with
 six it keeps 61.1%. Of the 1,367 words still one family short, 1,120 are attested by the Archive
