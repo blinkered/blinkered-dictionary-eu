@@ -5,8 +5,8 @@ The Basque word list, and the evidence for every word in it.
 Built by [`blinkered-attestation`](https://github.com/blinkered/blinkered-attestation). The rule,
 the evidence format and the reasoning live there; what lives here is Basque.
 
-**3,507 of 6,485 candidates proved, 54.1%**, across 6 independent
-families, 5 of which a stranger could check by fetching.
+**3,964 of 6,485 candidates proved, 61.1%**, across 10 independent
+families, 9 of which a stranger could check by fetching.
 
 ## What is in this repository
 
@@ -39,9 +39,9 @@ where to get it again, which is what makes the downloads disposable.
 
 **The families.** Basque Wikipedia and Wikisource (one Wikimedia family), four small Leipzig
 packages (a 2012 news crawl, 2019 and 2020 news and a 2011 web crawl, one family), Tatoeba, the
-Internet Archive's Basque shelf, and Basque-language sites fetched directly (`zientzia.eus` and
-`armiarma.eus` in this build). There is no Basque Gutenberg shelf and no Basque translation on
-eBible. The Archive shelf is thin: 15 of the 119 texts read were legible enough to count, the rest
+Internet Archive's Basque shelf, and six Basque-language sites fetched directly (`argia.eus`,
+`zientzia.eus`, `zuzeu.eus`, `berria.eus`, `hitza.eus` and `armiarma.eus`). There is no Basque Gutenberg shelf and no Basque translation on
+eBible. The Archive shelf is thin: 21 of the 158 texts read were legible enough to count, the rest
 being Spanish, French or bad OCR stopped by the floor.
 
 **The candidate list used to carry English.** The first build of this repository ran against a
@@ -59,13 +59,13 @@ fixed list with the old record in place, eight removed words still shipped on re
 alone (AND, NEW, BOB, GAY). So every collection was fetched again and re-read. That is a fault in
 the shared build and is reported there rather than patched here.
 
-**Where the drop list points.** Of the 1,695 words one family short, 1,456 are attested by the
-Archive and Wikipedia and nothing else. More Basque publishers would clear much of that: a
-harvest over all seven reached 1,000 pages and raised the old list by six points, and is being
-run again against this one.
+**Where the drop list points.** From scratch, with two publishers, the fixed list kept 54.1%; with
+six it keeps 61.1%. Of the 1,367 words still one family short, 1,120 are attested by the Archive
+and Wikipedia and nothing else: ABADEAREKIN, ABEGIKOR. More Basque books are what would reach
+them; Armiarma, the literary archive, gave the harvest two pages.
 
-**Tiles.** Every tile spells some shipped word; Q (once), W and Y (twice each) and Ñ (four times)
-are the rarest.
+**Tiles.** Every tile spells some shipped word; Q and W (twice each) and Ñ and Y (five times
+each) are the rarest.
 
 ## Rebuilding
 

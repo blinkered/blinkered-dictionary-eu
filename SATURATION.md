@@ -8,9 +8,9 @@ the curve a careful builder would get, not the order this repository happens to 
 The first two families keep nothing, which is not padding — it is the shape of a rule that needs
 three independent sources.
 
-Candidates: 6,485. Shipped: 3,507.
+Candidates: 6,485. Shipped: 3,964.
 
-Of 6 families, **5 can be checked by fetching** —
+Of 10 families, **9 can be checked by fetching** —
 a stable identifier or a page we fetched ourselves. The other 1 are crawls
 somebody else made, whose locators record where they found the sentence; the document that holds
 it is their published corpus, not the web.
@@ -19,9 +19,13 @@ it is their published corpus, not the web.
 | --- | --- | --- | --- | --- |
 | 1 | `wikimedia` | 0 | 0.0% | — |
 | 2 | `internetarchive` | 0 | 0.0% | — |
-| 3 | `leipzig` | 3,055 | 47.1% | +3,055 |
-| 4 | `zientzia.eus` | 3,323 | 51.2% | +268 |
-| 5 | `tatoeba` | 3,500 | 54.0% | +177 |
-| 6 | `armiarma.eus` | 3,507 | 54.1% | +7 |
+| 3 | `leipzig` | 3,070 | 47.3% | +3,070 |
+| 4 | `argia.eus` | 3,487 | 53.8% | +417 |
+| 5 | `zientzia.eus` | 3,682 | 56.8% | +195 |
+| 6 | `zuzeu.eus` | 3,836 | 59.2% | +154 |
+| 7 | `tatoeba` | 3,942 | 60.8% | +106 |
+| 8 | `berria.eus` | 3,954 | 61.0% | +12 |
+| 9 | `hitza.eus` | 3,960 | 61.1% | +6 |
+| 10 | `armiarma.eus` | 3,964 | 61.1% | +4 |
 
-**Diminishing returns from family 6** (`armiarma.eus`, +7), where a family first added less than a twentieth of what the best one did.
+**Diminishing returns from family 7** (`tatoeba`, +106), where a family first added less than a twentieth of what the best one did.

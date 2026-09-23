@@ -12,15 +12,19 @@ collection rather than reuse its record only has to put the file back where the 
 
 | collection | tokens | what it is | where it came from |
 | --- | ---: | --- | --- |
-| `wiki:eu` | 79,834,820 | Basque Wikipedia — modern encyclopedic prose | [euwiki.xml.bz2](https://dumps.wikimedia.org/euwiki/latest/euwiki-latest-pages-articles.xml.bz2) |
-| `wikisource:eu` | 2,207,966 | Basque Wikisource — same Wikimedia family, so it corroborates rather than counts | [euwikisource.xml.bz2](https://dumps.wikimedia.org/euwikisource/latest/euwikisource-latest-pages-articles.xml.bz2) |
-| `ia` | 775,720 | Internet Archive Basque books — literature, and the register a newspaper never reaches | [archive-eu](https://archive.org/search?query=mediatype%3Atexts+AND+%28language%3A%22Basque%22+OR+language%3A%22eus%22+OR+language%3A%22baq%22%29) |
-| `lz:eus_newscrawl_2012_300K` | 119,490 | Leipzig eus_newscrawl_2012_300K — modern news and web text, cited by the page each sentence came from | [eus_newscrawl_2012_300K](https://downloads.wortschatz-leipzig.de/corpora/eus_newscrawl_2012_300K.tar.gz) |
-| `web:zientzia.eus` | 42,227 |  | fetched from `zientzia.eus`, recorded in `searched.tsv` |
-| `tat` | 29,245 | Tatoeba Basque — contemporary and conversational, and small | [eus_sentences.tsv](https://downloads.tatoeba.org/exports/per_language/eus/eus_sentences.tsv.bz2) |
-| `lz:eus_news_2020_30K` | 24,560 | Leipzig eus_news_2020_30K — modern news and web text, cited by the page each sentence came from | [eus_news_2020_30K](https://downloads.wortschatz-leipzig.de/corpora/eus_news_2020_30K.tar.gz) |
-| `lz:eus_web_2011_30K` | 23,972 | Leipzig eus_web_2011_30K — modern news and web text, cited by the page each sentence came from | [eus_web_2011_30K](https://downloads.wortschatz-leipzig.de/corpora/eus_web_2011_30K.tar.gz) |
-| `lz:eus_news_2019_30K` | 15,742 | Leipzig eus_news_2019_30K — modern news and web text, cited by the page each sentence came from | [eus_news_2019_30K](https://downloads.wortschatz-leipzig.de/corpora/eus_news_2019_30K.tar.gz) |
+| `wiki:eu` | 79,834,820 |  | — |
+| `wikisource:eu` | 2,207,966 |  | — |
+| `ia` | 847,436 | Internet Archive Basque books — literature, and the register a newspaper never reaches | [archive-eu](https://archive.org/search?query=mediatype%3Atexts+AND+%28language%3A%22Basque%22+OR+language%3A%22eus%22+OR+language%3A%22baq%22%29) |
+| `lz:eus_newscrawl_2012_300K` | 119,490 |  | — |
+| `web:argia.eus` | 51,182 |  | fetched from `argia.eus`, recorded in `searched.tsv` |
+| `web:zientzia.eus` | 44,456 |  | fetched from `zientzia.eus`, recorded in `searched.tsv` |
+| `web:zuzeu.eus` | 38,867 |  | fetched from `zuzeu.eus`, recorded in `searched.tsv` |
+| `web:berria.eus` | 31,746 |  | fetched from `berria.eus`, recorded in `searched.tsv` |
+| `tat` | 29,245 |  | — |
+| `lz:eus_news_2020_30K` | 24,560 |  | — |
+| `lz:eus_web_2011_30K` | 23,972 |  | — |
+| `lz:eus_news_2019_30K` | 15,742 |  | — |
+| `web:hitza.eus` | 4,746 |  | fetched from `hitza.eus`, recorded in `searched.tsv` |
 | `web:armiarma.eus` | 1,235 |  | fetched from `armiarma.eus`, recorded in `searched.tsv` |
 
 Totals are playable tokens after folding, not bytes. A collection missing from this table was
