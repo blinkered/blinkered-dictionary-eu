@@ -14,7 +14,7 @@ collection rather than reuse its record only has to put the file back where the 
 | --- | ---: | --- | --- |
 | `wiki:eu` | 79,834,820 | Basque Wikipedia — modern encyclopedic prose | [euwiki.xml.bz2](https://dumps.wikimedia.org/euwiki/latest/euwiki-latest-pages-articles.xml.bz2) |
 | `wikisource:eu` | 2,207,966 | Basque Wikisource — same Wikimedia family, so it corroborates rather than counts | [euwikisource.xml.bz2](https://dumps.wikimedia.org/euwikisource/latest/euwikisource-latest-pages-articles.xml.bz2) |
-| `ia` | 394,784 | Internet Archive Basque books — literature, and the register a newspaper never reaches | [archive-eu](https://archive.org/search?query=mediatype%3Atexts+AND+%28language%3A%22Basque%22+OR+language%3A%22eus%22+OR+language%3A%22baq%22%29) |
+| `ia` | 775,720 | Internet Archive Basque books — literature, and the register a newspaper never reaches | [archive-eu](https://archive.org/search?query=mediatype%3Atexts+AND+%28language%3A%22Basque%22+OR+language%3A%22eus%22+OR+language%3A%22baq%22%29) |
 | `lz:eus_newscrawl_2012_300K` | 119,490 | Leipzig eus_newscrawl_2012_300K — modern news and web text, cited by the page each sentence came from | [eus_newscrawl_2012_300K](https://downloads.wortschatz-leipzig.de/corpora/eus_newscrawl_2012_300K.tar.gz) |
 | `web:zientzia.eus` | 42,227 |  | fetched from `zientzia.eus`, recorded in `searched.tsv` |
 | `tat` | 29,245 | Tatoeba Basque — contemporary and conversational, and small | [eus_sentences.tsv](https://downloads.tatoeba.org/exports/per_language/eus/eus_sentences.tsv.bz2) |

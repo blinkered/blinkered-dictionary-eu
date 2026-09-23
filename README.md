@@ -5,7 +5,7 @@ The Basque word list, and the evidence for every word in it.
 Built by [`blinkered-attestation`](https://github.com/blinkered/blinkered-attestation). The rule,
 the evidence format and the reasoning live there; what lives here is Basque.
 
-**3,535 of 7,417 candidates proved, 47.7%**, across 6 independent
+**3,507 of 6,485 candidates proved, 54.1%**, across 6 independent
 families, 5 of which a stranger could check by fetching.
 
 ## What is in this repository
@@ -39,26 +39,33 @@ where to get it again, which is what makes the downloads disposable.
 
 **The families.** Basque Wikipedia and Wikisource (one Wikimedia family), four small Leipzig
 packages (a 2012 news crawl, 2019 and 2020 news and a 2011 web crawl, one family), Tatoeba, the
-Internet Archive's Basque shelf, and two Basque-language sites fetched directly
-(`zientzia.eus` and `armiarma.eus` so far). There is no Basque Gutenberg shelf and no Basque
-translation on eBible. The Archive shelf is thin: 6 of the 36 texts read were legible enough to
-count, the rest being Spanish, French or bad OCR stopped by the floor.
+Internet Archive's Basque shelf, and Basque-language sites fetched directly (`zientzia.eus` and
+`armiarma.eus` in this build). There is no Basque Gutenberg shelf and no Basque translation on
+eBible. The Archive shelf is thin: 15 of the 119 texts read were legible enough to count, the rest
+being Spanish, French or bad OCR stopped by the floor.
 
-**The candidate list carries English, and the evidence cannot remove it.** Blinkered's Basque list
-was validated partly against _eu.wiktionary page titles_, which is the `titles(x)` mistake
-`SCRIPTS.md` describes: a Wiktionary documents every language, so THE, YOU, KNOW, THINK, GOOD and
-SCHOOL are candidates here. Attestation then finds them, honestly, because Basque text quotes
-English: song lyrics in a music magazine on the Archive shelf, film titles on Wikipedia, English
-phrases in a science site's articles. About 200 of the shipped words are ordinary English words
-from the top 3,000 of the English list (THE, AND, YOU, ARE, BUT, ALL, LIKE, ONE, TIME, WORLD,
-HOUSE). Three collections did contain them; they are still not Basque. The fix belongs in the
-candidate list, not here, and until it is made this list should not ship.
+**The candidate list used to carry English.** The first build of this repository ran against a
+7,417-word list validated partly on eu.wiktionary page titles, which is the `titles(x)` mistake
+`SCRIPTS.md` describes, and about 200 ordinary English words shipped attested (THE, YOU, KNOW,
+SCHOOL), because Basque text quotes English. The candidates have since been fixed in
+`blinkered-attestation` (932 words removed, listed with the reason in `candidates/eu/english.tsv`),
+and this build is from scratch against the 6,485 that remain. What is left in common with the top
+of the English list is about fifty words, most of them loans that Basque spells the same way
+(FILM, INTERNET, PIANO, HOTEL, RADIO) and were kept on purpose.
 
-**Where the drop list points.** Of the 2,077 words one family short, 1,635 are attested by the
-Archive and Wikipedia and nothing else, and 265 by Leipzig and Wikipedia. More Basque publishers
-would clear much of both; the harvest reached only two of its seven domains before this build.
+**Why from scratch rather than reused.** A rebuild that reuses recorded testimony carries every
+word in the old evidence, including candidates that are no longer candidates. Rebuilt over the
+fixed list with the old record in place, eight removed words still shipped on reused sightings
+alone (AND, NEW, BOB, GAY). So every collection was fetched again and re-read. That is a fault in
+the shared build and is reported there rather than patched here.
 
-**Tiles.** Every tile spells some shipped word; Q (once) and Ñ (four times) are the rarest.
+**Where the drop list points.** Of the 1,695 words one family short, 1,456 are attested by the
+Archive and Wikipedia and nothing else. More Basque publishers would clear much of that: a
+harvest over all seven reached 1,000 pages and raised the old list by six points, and is being
+run again against this one.
+
+**Tiles.** Every tile spells some shipped word; Q (once), W and Y (twice each) and Ñ (four times)
+are the rarest.
 
 ## Rebuilding
 

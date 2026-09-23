@@ -8,7 +8,7 @@ the curve a careful builder would get, not the order this repository happens to 
 The first two families keep nothing, which is not padding — it is the shape of a rule that needs
 three independent sources.
 
-Candidates: 7,417. Shipped: 3,535.
+Candidates: 6,485. Shipped: 3,507.
 
 Of 6 families, **5 can be checked by fetching** —
 a stable identifier or a page we fetched ourselves. The other 1 are crawls
@@ -19,9 +19,9 @@ it is their published corpus, not the web.
 | --- | --- | --- | --- | --- |
 | 1 | `wikimedia` | 0 | 0.0% | — |
 | 2 | `internetarchive` | 0 | 0.0% | — |
-| 3 | `leipzig` | 2,972 | 40.1% | +2,972 |
-| 4 | `zientzia.eus` | 3,337 | 45.0% | +365 |
-| 5 | `tatoeba` | 3,527 | 47.6% | +190 |
-| 6 | `armiarma.eus` | 3,535 | 47.7% | +8 |
+| 3 | `leipzig` | 3,055 | 47.1% | +3,055 |
+| 4 | `zientzia.eus` | 3,323 | 51.2% | +268 |
+| 5 | `tatoeba` | 3,500 | 54.0% | +177 |
+| 6 | `armiarma.eus` | 3,507 | 54.1% | +7 |
 
-**Diminishing returns from family 6** (`armiarma.eus`, +8), where a family first added less than a twentieth of what the best one did.
+**Diminishing returns from family 6** (`armiarma.eus`, +7), where a family first added less than a twentieth of what the best one did.
